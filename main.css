@@ -556,7 +556,6 @@ footer{
 #productdetail-box {
     padding-bottom: 0px;
     grid-column-start: 2;
-    margin-left: none;
     margin-right: 200px
 }
 
@@ -567,12 +566,7 @@ footer{
 
 }
 
-/* posicion del menu hamburguesa */
 
-.menupos {
-    display: grid;
-    grid-template-columns: 100px, auto ;
-}
 
 /*HOMEPAGE*/
 
@@ -580,7 +574,6 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    font: Sans-serif;
 }
 
 
@@ -596,7 +589,6 @@ footer{
     height: 400px;
     width: 100%;
     border-radius: 25px;
-    box-shadow: 25px,26px;
     
 }
 
@@ -676,7 +668,7 @@ flex-basis: 33%
 
 #items_ofertas {
     display: grid;
-    grid-template-columns: 100px,auto;
+    grid-template-columns: 100px auto;
     margin: 5%
     
 }
@@ -697,7 +689,7 @@ flex-basis: 33%
 
 .todohome {
     display: grid;
-    grid-auto-columns: 100px,auto;
+    grid-auto-columns: 100px auto;
 }
 
 #no-menu {
@@ -733,6 +725,7 @@ flex-basis: 33%
     flex-wrap: wrap;
     flex-direction: row;
     max-width: 900px;
+    margin-top: 50px;
 
 }
 
@@ -766,7 +759,6 @@ flex-basis: 33%
 
 .menuposabout {
     display: grid;
-    grid-template-columns: 80px, auto ;
 }
 
 .grid_menu_login {
@@ -775,7 +767,7 @@ flex-basis: 33%
 
 .grid_login {
     display: grid;
-    grid-template-columns: 25% 75%
+    grid-template-columns: 20% 80%
     
 }
 
